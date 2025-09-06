@@ -1,0 +1,7 @@
+CREATE TABLE product (
+     ID INT AUTO_INCREMENT, PRIMARY ,
+     name VARCHAR(200) NOT NULL,
+     description VARCHAR(200),
+     price DECIMAL(10,2),
+     created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
